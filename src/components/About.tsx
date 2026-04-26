@@ -9,12 +9,12 @@ const values = [
   {
     icon: Sparkles,
     title: "Our Culture",
-    text: "Welcoming, curious, and always learning. We celebrate readers of every age and background — from toddlers turning their first page to lifelong learners chasing new ideas.",
+    text: "At Stacks, we believe libraries should be open, inclusive spaces for everyone. Our culture is built around community, learning, and accessibility.\nWe want every visitor to feel supported, welcomed, and inspired.",
   },
   {
     icon: Target,
     title: "Our Goals",
-    text: "To make knowledge accessible across Northern Ireland, foster literacy, and create vibrant spaces where curiosity thrives — online and on every high street.",
+    text: "Our goal is to modernise the library experience while keeping the heart of Libraries NI the same. We focus on accessibility, discovery, and stronger community connections, while creating a cleaner and more consistent brand that feels relevant for both current users and future generations.",
   },
 ];
 
@@ -45,7 +45,7 @@ const About = () => {
                 <v.icon className="text-primary-foreground" size={26} />
               </div>
               <h3 className="font-heading font-bold text-2xl text-foreground mb-3">{v.title}</h3>
-              <p className="font-body text-muted-foreground leading-relaxed">{v.text}</p>
+              <p className="font-body text-muted-foreground leading-relaxed whitespace-pre-line">{v.text}</p>
             </div>
           ))}
         </div>
