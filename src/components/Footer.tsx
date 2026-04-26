@@ -1,13 +1,12 @@
 import { Facebook, Instagram } from "lucide-react";
+import logo from "@/assets/stacks-logo.png";
 
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-10">
       <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-purple flex items-center justify-center">
-            <span className="text-primary-foreground font-heading font-bold">S</span>
-          </div>
+          <img src={logo} alt="Stacks logo" className="w-8 h-8 object-contain bg-background rounded p-0.5" />
           <span className="font-heading font-bold text-lg">Stacks · LibrariesNI</span>
         </div>
 
