@@ -4,7 +4,7 @@ const values = [
   {
     icon: Heart,
     title: "Our Story",
-    text: "Stacks grew from a love of reading and a belief that libraries belong to everyone. Rooted in the heritage of LibrariesNI, we're a modern home for stories, learning, and community.",
+    text: "Stacks is a fresh new chapter for Libraries NI, created to make libraries feel more modern, welcoming, and accessible.",
   },
   {
     icon: Sparkles,
