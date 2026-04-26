@@ -27,10 +27,10 @@ const About = () => {
             About Us
           </span>
           <h2 className="font-heading font-extrabold text-4xl md:text-5xl text-foreground mb-5">
-            More than books — we're a community.
+            Way more than books . . .
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Stacks is the friendly face of LibrariesNI: a place to read, learn, gather and grow.
+            Stacks is the new friendly face of LibrariesNI: a place to read, learn, gather and grow.
             Discover the people, purpose and passion behind every shelf.
           </p>
         </div>
