@@ -38,7 +38,7 @@ const Finder = () => {
             Find Your Stacks
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            Search by town, postcode or branch name to find your nearest LibrariesNI location.
+            Search by town, postcode or branch name to find your nearest Stacks location.
           </p>
         </div>
 
