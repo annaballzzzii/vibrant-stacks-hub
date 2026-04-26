@@ -1,5 +1,5 @@
 import { BookOpen, MapPin, Users } from "lucide-react";
-import heroImg from "@/assets/hero-library.jpg";
+import logo from "@/assets/stacks-logo.png";
 
 const highlights = [
   { icon: BookOpen, label: "Endless Stories", desc: "Thousands of titles to discover" },
@@ -9,18 +9,16 @@ const highlights = [
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-24 pb-16">
-      {/* Background image with gradient overlay */}
-      <div className="absolute inset-0 -z-10">
-        <img
-          src={heroImg}
-          alt="Modern library interior with bookshelves and reading nooks"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/40" />
-      </div>
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center overflow-hidden pt-24 pb-16 bg-gradient-hero"
+    >
+      {/* Decorative blurred shapes */}
+      <div className="absolute top-20 -left-20 w-96 h-96 bg-secondary/30 rounded-full blur-3xl -z-0" />
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-primary-glow/30 rounded-full blur-3xl -z-0" />
 
-      <div className="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center relative z-10">
+        {/* Left: copy */}
         <div className="text-primary-foreground animate-fade-up">
           <span className="inline-block px-4 py-1.5 rounded-full bg-secondary/30 backdrop-blur-sm text-secondary border border-secondary/40 font-body text-sm font-semibold mb-6">
             ✨ Welcome to LibrariesNI
@@ -50,23 +48,38 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Highlights cards */}
-        <div className="grid gap-4 md:gap-5 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-          {highlights.map((h, i) => (
-            <div
-              key={h.label}
-              className="flex items-center gap-5 p-5 md:p-6 rounded-2xl bg-background/95 backdrop-blur-sm shadow-elegant hover:translate-x-2 transition-smooth"
-              style={{ marginLeft: `${i * 1.5}rem` }}
-            >
-              <div className="shrink-0 w-14 h-14 rounded-xl bg-gradient-purple flex items-center justify-center shadow-soft">
-                <h.icon className="text-primary-foreground" size={26} />
-              </div>
-              <div>
-                <h3 className="font-heading font-bold text-lg text-foreground">{h.label}</h3>
-                <p className="font-body text-sm text-muted-foreground">{h.desc}</p>
-              </div>
+        {/* Right: logo + highlights */}
+        <div className="animate-fade-up" style={{ animationDelay: "0.2s" }}>
+          <div className="flex justify-center mb-8">
+            <div className="relative">
+              <div className="absolute inset-0 bg-secondary/40 blur-3xl rounded-full" />
+              <img
+                src={logo}
+                alt="Stacks logo"
+                width={420}
+                height={420}
+                className="relative w-64 md:w-80 lg:w-96 h-auto animate-float drop-shadow-2xl"
+              />
             </div>
-          ))}
+          </div>
+
+          <div className="grid gap-3 md:gap-4">
+            {highlights.map((h, i) => (
+              <div
+                key={h.label}
+                className="flex items-center gap-4 p-4 rounded-2xl bg-background/95 backdrop-blur-sm shadow-elegant hover:translate-x-2 transition-smooth"
+                style={{ marginLeft: `${i * 1.25}rem` }}
+              >
+                <div className="shrink-0 w-12 h-12 rounded-xl bg-gradient-purple flex items-center justify-center shadow-soft">
+                  <h.icon className="text-primary-foreground" size={22} />
+                </div>
+                <div>
+                  <h3 className="font-heading font-bold text-base text-foreground">{h.label}</h3>
+                  <p className="font-body text-xs text-muted-foreground">{h.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

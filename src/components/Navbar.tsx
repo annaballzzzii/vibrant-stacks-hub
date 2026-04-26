@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import logo from "@/assets/stacks-logo.png";
 
 const links = [
   { label: "Home", href: "#home" },
@@ -28,9 +29,7 @@ const Navbar = () => {
     >
       <nav className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
         <a href="#home" className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-lg bg-gradient-purple flex items-center justify-center shadow-soft">
-            <span className="text-primary-foreground font-heading font-bold text-lg">S</span>
-          </div>
+          <img src={logo} alt="Stacks logo" className="w-9 h-9 object-contain" />
           <span className="font-heading font-bold text-xl text-foreground">
             Stacks<span className="text-primary">.</span>
           </span>
