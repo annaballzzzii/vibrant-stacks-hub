@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center relative z-10">
         {/* Left: copy */}
         <div className="text-primary-foreground animate-fade-up">
-          <span className="inline-block px-4 py-1.5 rounded-full bg-secondary/30 backdrop-blur-sm text-secondary border border-secondary/40 font-body text-sm font-semibold mb-6">
+          <span className="inline-block px-4 py-1.5 rounded-full backdrop-blur-sm text-secondary border border-secondary/40 font-body text-sm font-semibold mb-6 bg-primary-foreground">
             ✨ Welcome to LibrariesNI
           </span>
           <h1 className="font-heading font-extrabold text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6">
