@@ -1,4 +1,5 @@
 import { Heart, Sparkles, Target } from "lucide-react";
+import bookshelf from "@/assets/bookshelf.png";
 
 const values = [
   {
@@ -33,6 +34,15 @@ const About = () => {
             Stacks is the new friendly face of LibrariesNI: a place to read, learn, gather and grow.
             Discover the people, purpose and passion behind every shelf.
           </p>
+        </div>
+
+        {/* Decorative bookshelf illustration */}
+        <div className="flex justify-center mb-12">
+          <img
+            src={bookshelf}
+            alt="Bookshelf illustration"
+            className="w-64 md:w-80 lg:w-96 h-auto opacity-90 drop-shadow-lg"
+          />
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
