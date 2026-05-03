@@ -1,4 +1,5 @@
 import { Heart, Sparkles, Target } from "lucide-react";
+import bookshelf from "@/assets/bookshelf.png";
 
 const values = [
   {
