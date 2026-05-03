@@ -27,7 +27,7 @@ const About = () => {
     <section id="about" className="py-24 bg-gradient-soft">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="inline-block px-4 py-1.5 rounded-full bg-secondary text-secondary-foreground font-body text-sm font-semibold mb-4">
+          <span className="inline-block px-4 py-1.5 rounded-full bg-teal/15 text-teal font-body text-sm font-semibold mb-4 border border-teal/30">
             About Us
           </span>
           <h2 className="font-heading font-extrabold text-4xl md:text-5xl text-foreground mb-5">
