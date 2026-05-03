@@ -6,16 +6,19 @@ const values = [
     icon: Heart,
     title: "Our Story",
     text: "Stacks is a fresh new chapter for Libraries NI, created to make libraries feel more modern, welcoming, and accessible.",
+    gradient: "bg-gradient-rose",
   },
   {
     icon: Sparkles,
     title: "Our Culture",
     text: "At Stacks, we believe libraries should be open, inclusive spaces for everyone. Our culture is built around community, learning, and accessibility.\nWe want every visitor to feel supported, welcomed, and inspired.",
+    gradient: "bg-gradient-warm",
   },
   {
     icon: Target,
     title: "Our Goals",
     text: "Our goal is to modernise the library experience while keeping the heart of Libraries NI the same. We focus on accessibility, discovery, and stronger community connections, while creating a cleaner and more consistent brand that feels relevant for both current users and future generations.",
+    gradient: "bg-gradient-teal",
   },
 ];
 
