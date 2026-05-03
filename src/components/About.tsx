@@ -1,5 +1,5 @@
 import { Heart, Sparkles, Target } from "lucide-react";
-import bookshelf from "@/assets/bookshelf.png";
+import bookstack from "@/assets/bookstack.png";
 
 const values = [
   {
@@ -39,9 +39,9 @@ const About = () => {
         {/* Decorative bookshelf illustration */}
         <div className="flex justify-center mb-12">
           <img
-            src={bookshelf}
-            alt="Bookshelf illustration"
-            className="w-64 md:w-80 lg:w-96 h-auto opacity-90 drop-shadow-lg"
+            src={bookstack}
+            alt="Bookstack illustration"
+            className="w-48 md:w-56 lg:w-64 h-auto drop-shadow-lg"
           />
         </div>
 
