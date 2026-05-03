@@ -127,6 +127,15 @@
   .bg-gradient-purple {
     background: var(--gradient-purple);
   }
+  .bg-gradient-warm {
+    background: var(--gradient-warm);
+  }
+  .bg-gradient-teal {
+    background: var(--gradient-teal);
+  }
+  .bg-gradient-rose {
+    background: var(--gradient-rose);
+  }
   .shadow-soft {
     box-shadow: var(--shadow-soft);
   }
