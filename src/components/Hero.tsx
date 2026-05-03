@@ -2,9 +2,9 @@ import { BookOpen, MapPin, Users } from "lucide-react";
 import bookshelf from "@/assets/bookshelf.png";
 
 const highlights = [
-  { icon: BookOpen, label: "Endless Stories", desc: "Thousands of titles to discover" },
-  { icon: Users, label: "Community Hub", desc: "Events, clubs & workshops" },
-  { icon: MapPin, label: "Across NI", desc: "Branches throughout the region" },
+  { icon: BookOpen, label: "Endless Stories", desc: "Thousands of titles to discover", gradient: "bg-gradient-rose" },
+  { icon: Users, label: "Community Hub", desc: "Events, clubs & workshops", gradient: "bg-gradient-teal" },
+  { icon: MapPin, label: "Across NI", desc: "Branches throughout the region", gradient: "bg-gradient-warm" },
 ];
 
 const Hero = () => {
