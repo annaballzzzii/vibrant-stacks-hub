@@ -54,8 +54,8 @@ const About = () => {
               key={v.title}
               className="group p-8 rounded-2xl bg-card border border-border shadow-soft hover:shadow-elegant hover:-translate-y-1 transition-smooth"
             >
-              <div className="w-14 h-14 rounded-xl bg-gradient-purple flex items-center justify-center mb-5 group-hover:scale-110 transition-smooth">
-                <v.icon className="text-primary-foreground" size={26} />
+              <div className={`w-14 h-14 rounded-xl ${v.gradient} flex items-center justify-center mb-5 group-hover:scale-110 transition-smooth`}>
+                <v.icon className="text-white" size={26} />
               </div>
               <h3 className="font-heading font-bold text-2xl text-foreground mb-3">{v.title}</h3>
               <p className="font-body text-muted-foreground leading-relaxed whitespace-pre-line">{v.text}</p>
