@@ -54,11 +54,11 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-secondary/40 blur-3xl rounded-full" />
               <img
-                src={logo}
-                alt="Stacks logo"
-                width={420}
-                height={420}
-                className="relative w-64 md:w-80 lg:w-96 h-auto animate-float drop-shadow-2xl"
+                src={bookshelf}
+                alt="Bookshelf illustration"
+                width={500}
+                height={300}
+                className="relative w-72 md:w-96 lg:w-[28rem] h-auto animate-float drop-shadow-2xl"
               />
             </div>
           </div>
