@@ -14,8 +14,8 @@ const Hero = () => {
       className="relative min-h-screen flex items-center overflow-hidden pt-24 pb-16 bg-gradient-hero"
     >
       {/* Decorative blurred shapes */}
-      <div className="absolute top-20 -left-20 w-96 h-96 bg-secondary/30 rounded-full blur-3xl -z-0" />
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-primary-glow/30 rounded-full blur-3xl -z-0" />
+      <div className="absolute top-20 -left-20 w-96 h-96 bg-teal/20 rounded-full blur-3xl -z-0" />
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-warm/20 rounded-full blur-3xl -z-0" />
 
       <div className="container mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-12 items-center relative z-10">
         {/* Left: copy */}
@@ -25,7 +25,7 @@ const Hero = () => {
           </span>
           <h1 className="font-heading font-extrabold text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6">
             Where every<br />
-            <span className="text-secondary">story</span> finds<br />
+            <span className="text-warm">story</span> finds<br />
             its reader.
           </h1>
           <p className="font-body text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl">
@@ -70,8 +70,8 @@ const Hero = () => {
                 className="flex items-center gap-4 p-4 rounded-2xl bg-background/95 backdrop-blur-sm shadow-elegant hover:translate-x-2 transition-smooth"
                 style={{ marginLeft: `${i * 1.25}rem` }}
               >
-                <div className="shrink-0 w-12 h-12 rounded-xl bg-gradient-purple flex items-center justify-center shadow-soft">
-                  <h.icon className="text-primary-foreground" size={22} />
+                <div className={`shrink-0 w-12 h-12 rounded-xl ${h.gradient} flex items-center justify-center shadow-soft`}>
+                  <h.icon className="text-white" size={22} />
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-base text-foreground">{h.label}</h3>
