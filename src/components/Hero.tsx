@@ -1,5 +1,5 @@
 import { BookOpen, MapPin, Users } from "lucide-react";
-import logo from "@/assets/stacks-logo.png";
+import bookshelf from "@/assets/bookshelf.png";
 
 const highlights = [
   { icon: BookOpen, label: "Endless Stories", desc: "Thousands of titles to discover" },
