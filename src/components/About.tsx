@@ -36,6 +36,15 @@ const About = () => {
           </p>
         </div>
 
+        {/* Decorative bookshelf illustration */}
+        <div className="flex justify-center mb-12">
+          <img
+            src={bookshelf}
+            alt="Bookshelf illustration"
+            className="w-64 md:w-80 lg:w-96 h-auto opacity-90 drop-shadow-lg"
+          />
+        </div>
+
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
           {values.map((v) => (
             <div
