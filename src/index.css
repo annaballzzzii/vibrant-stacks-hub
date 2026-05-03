@@ -34,6 +34,14 @@
     --accent: 252 100% 86%;               /* Soft Lilac as accent */
     --accent-foreground: 257 45% 25%;
 
+    /* Complementary palette */
+    --warm: 38 92% 50%;                    /* Amber/Gold */
+    --warm-foreground: 0 0% 100%;
+    --teal: 174 60% 40%;                   /* Teal */
+    --teal-foreground: 0 0% 100%;
+    --rose: 340 65% 55%;                   /* Warm Rose */
+    --rose-foreground: 0 0% 100%;
+
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
