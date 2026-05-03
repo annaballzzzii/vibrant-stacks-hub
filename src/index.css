@@ -52,7 +52,7 @@
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(257 45% 45%) 0%, hsl(257 60% 60%) 50%, hsl(252 100% 86%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(257 45% 40%) 0%, hsl(220 50% 45%) 35%, hsl(174 50% 38%) 65%, hsl(38 80% 55%) 100%);
     --gradient-soft: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(240 7% 95%) 100%);
     --gradient-purple: linear-gradient(135deg, hsl(257 45% 45%), hsl(257 55% 55%));
     --gradient-warm: linear-gradient(135deg, hsl(38 92% 50%), hsl(38 85% 58%));
